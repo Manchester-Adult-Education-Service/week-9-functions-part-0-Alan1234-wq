@@ -21,14 +21,14 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+# creat cart list
 cart = ["apple", "bread", "milk", "eggs"]
-total_items = len(cart)
+total_items = len(cart) # how many item in cart list
 
-print(f"You have {total_items} items in your cart")
+print(f"You have {total_items} items in your cart") # list len number in cart list
 
-for item in cart:
-    print(f"- {item}")
+for item in cart: # show item in cart 
+    print(f"- {item}") 
 
 # -------------------------------------------
 # Task 2: Grade Calculator
@@ -38,10 +38,12 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+# ask user test score
+# if score greater than or equal 70 , is pass
+# else grade fail
 score = int(input("Enter your test score: "))
 
-if score >= 70:
+if score >= 70:   
     grade = "Pass"
 else:
     grade = "Fail"
@@ -56,7 +58,9 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+# ask user create a password
+# password need greater than or equal 8 and have upper and lower case sensitive
+# if password condition fix, accepted, if not rejected must be >8 wiht upper and lowercase letters
 password = input("Create a password: ")
 
 is_long = len(password) >= 8
@@ -78,7 +82,9 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+# create numbers list 
+# count even number
+# use if num % 2 == 0
 numbers = [12, 7, 18, 5, 22, 9, 14]
 even_count = 0
 
@@ -96,7 +102,10 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+# create student dictionary, key include name , age and grade. 
+# average sum student grade
+# around average 2 
+# print out Student name, age and average
 student = {
     "name": "Alice",
     "age": 20,
@@ -118,7 +127,8 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+# countdown 5 to 0
+# after print blast off
 countdown = 5
 
 while countdown > 0:
@@ -135,6 +145,9 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
+#create menu_items 
+#formatted_item 
+#looping items list upper case sensitive
 
 menu_items = ["burger", "pizza", "salad", "pasta"]
 counter = 1
